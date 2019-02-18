@@ -4118,8 +4118,8 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: ##B3011E;
+  color: #fff;
+  background-color: ##9C7A69;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -6443,13 +6443,13 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #6B381F !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #dae0e5 !important;
+  background-color: #9C7A69 !important;
 }
 
 .bg-dark {
