@@ -17,18 +17,37 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Aktiv Grotesk", "sans serif";
 }
 
-h1{
+h2{
 	font:bold;
+	font-size: 3em;
 	color: #B3011E;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
 }
 
 main div{
-	padding: 15px 8%;
+	padding: 0px 8% 15px 8%;
 }
+
+/*--- GOOGLE MAPS ---*/
+
+#gmap_canvas img{
+	max-width:none!important;
+	background:none!important;
+	height:500px;
+	width:50%;
+}
+#map{
+	overflow:hidden;
+	height:500px;
+	width:50%;
+}
+
 /*--- Header ---*/
 
-
-
+header{
+	background-color: #6B381F;
+}
 
 /*--- footer ---*/
 
