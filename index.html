@@ -33,9 +33,11 @@
 		</div>
 		
 		<div>
+			<p>WHAT?</p>
 			<div id="map">
 				<div id="gmap_canvas"></div>
 			</div>
+			<p>SHIT</p>
 		</div>
     </main>
 	
@@ -48,9 +50,12 @@
 <script src="js/bootstrap-4.2.1.js"></script>
 	
 <!-- GOOGLE MAPS -->
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=trinity-232105'></script>
-<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=0c5375f5360d3744b220571c35be84b722aba9c3'></script>
-<script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(45.0714328,-122.74302439999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.0714328,-122.74302439999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Trinity Lutheran Church</strong><br>15534 E. Marquam Rd<br>97362 Mt. Angel<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=trinity-232105"></script>
+<script type="text/javascript" src="https://embedmaps.com/google-maps-authorization/script.js?id=0c5375f5360d3744b220571c35be84b722aba9c3"></script>
+<script type="text/javascript">
+	function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(45.0714328,-122.74302439999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById(gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.0714328,-122.74302439999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Trinity Lutheran Church</strong><br>15534 E. Marquam Rd<br>97362 Mt. Angel<br>'});google.maps.event.addListener(marker, 'click', 
+	function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+</script>
 
 	
 </body>
