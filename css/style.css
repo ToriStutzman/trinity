@@ -19,47 +19,8 @@ h1, h2, h3, h4, h5, h6{
 
 /*--- Header ---*/
 
-header{
-	background-color: #6b381f;
-	color: #fff;
-	padding: 30px;
-}
-header h1{
-	font: "Aktiv Grotesk Light";
-	aligh: center;
-	padding: 8px;
-}
-nav ul{
-	list-style-type: none;
-}
-nav ul li a{
-	text-decoration: none;
-	color: #fff;
-	display: block;
-	padding: 8px;
-}
 
 
-
-@media (min-width: 764px){
-	nav ul{
-	text-align: center;
-}
-	nav ul li a{
-	display: inline-block;
-	padding: 8px;
-}
-}
-
-@media (min-width: 1024px){
-	header h1{
-	float: left
-}
-	nav ul{
-	text-align: right;
-}
-	
-}
 
 /*--- footer ---*/
 
