@@ -30,20 +30,6 @@ main div{
 }
 
 /*--- GOOGLE MAPS ---*/
-
-#gmap_canvas img{
-	max-width:none!important;
-	background:none!important;
-	height:500px;
-	width:50%;
-}
-#map{
-	overflow:hidden;
-	height:500px;
-	width:50%;
-}
-
-
 .map-container-2{
 overflow:hidden;
 padding-bottom:56.25%;
