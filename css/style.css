@@ -7,11 +7,14 @@ html * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Aktiv Grotesk", "san serif", "Aktiv Grotesk Light", "Aktiv Grotesk Medium", "Aktiv Grotesk Thin";
+	font-family: "Aktiv Grotesk", "san serif";
 }
 
 /*--- body ---*/
 
+p{
+	padding-bottom: 1em;
+}
 
 h1, h2, h3, h4, h5, h6{
 	font-family: "Aktiv Grotesk", "sans serif";
@@ -21,8 +24,14 @@ h2{
 	font:bold;
 	font-size: 3em;
 	color: #B3011E;
-	padding-bottom: 0.5em;
+	padding-bottom: 0.4em;
 	padding-top: 0.5em;
+}
+
+h3{
+	font:bold;
+	padding-bottom: 0.75em;
+	padding-top: 0.2em;
 }
 
 main div{
@@ -33,7 +42,6 @@ main div{
 	background-color:#5B7B9A;
 	color: #fff;
 	padding-top: 2%;
-	padding-bottom: 2%;
 }
 
 .lefthr{
@@ -61,7 +69,7 @@ main div{
 }
 
 .small{
-	font-size: 0.25rem;
+	font-size: 0.5rem;
 }
 
 /*--- GOOGLE MAPS ---*/
