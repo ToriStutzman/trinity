@@ -29,6 +29,10 @@ main div{
 	padding: 0px 8% 15px 8%;
 }
 
+.blue{
+	background-color:#5B7B9A;
+}
+
 .lefthr{
 	align: left; 
 	width: 50%; 
@@ -54,18 +58,17 @@ main div{
 }
 
 /*--- GOOGLE MAPS ---*/
-.map-container-2{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
+.map-container{
+	overflow:hidden;
+	position:relative;
+	height:0;
+	
 }
-.map-container-2 iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
+.map-container iframe{
+	height:100%;
+	width:70%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 /*--- Header ---*/
