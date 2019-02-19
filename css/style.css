@@ -31,6 +31,9 @@ main div{
 
 .blue{
 	background-color:#5B7B9A;
+	color: #fff;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .lefthr{
@@ -57,6 +60,10 @@ main div{
 	margin-bottom: 1em;
 }
 
+.small{
+	font-size: 0.25rem;
+}
+
 /*--- GOOGLE MAPS ---*/
 .map-container{
 	overflow:hidden;
@@ -66,7 +73,7 @@ main div{
 }
 .map-container iframe{
 	height:100%;
-	width:70%;
+	width:100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
