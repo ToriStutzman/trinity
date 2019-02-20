@@ -13,7 +13,7 @@ html * {
 /*--- body ---*/
 
 p{
-	padding-bottom: 1em;
+	padding-bottom: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -34,7 +34,7 @@ h3{
 	padding-top: 0.2em;
 }
 
-main div{
+.main div{
 	padding: 0px 8% 15px 8%;
 }
 
@@ -46,7 +46,7 @@ main div{
 
 .lefthr{
 	align: left; 
-	width: 50%; 
+	width: 60%; 
 	color: #6B381F;
 	border: 0.2em solid #6B381F;
 	border-bottom-right-radius: 5px;
@@ -57,8 +57,9 @@ main div{
 }
 
 .righthr{
-	align: right; 
-	width: 50%; 
+	align: right;
+	float: right;
+	width: 60%; 
 	color: #6B381F;
 	border: 0.2em solid #6B381F;
 	border-bottom-left-radius: 5px;
