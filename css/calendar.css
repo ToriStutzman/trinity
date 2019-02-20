@@ -3,6 +3,9 @@ white-space:normal !important;
 
 }
 
+.calendar-container{
+	font-family: "Aktiv Grotesk";
+}
 /* edit the border/background of calendar */
 .view-cap, .view-container-border{
 	background-color:#5b7b9a;
@@ -66,11 +69,6 @@ white-space:normal !important;
 
 }
 
-.navBack,
-.navForward
-{ 
-	color:#b3011e; 
-}
 
 .agenda-more{ 
 	color:#0D75BB; 
@@ -79,8 +77,27 @@ white-space:normal !important;
 .agenda .date-label{ 
 	padding:5px 0px; 
 }
-.dp-popup{
-	background:#fff;
-	border-color: #5b7b9a;
 
+.subscribe-image{
+	opacity:0;
+}
+
+.loading{
+	color:aqua;
+}
+
+.today-button{
+	color:#fff;
+	background-color: #5b7b9a;
+	border-color: #5b7b9a;
+	border: solid 2px;
+}
+
+
+
+
+
+.ui-rtsr-selected, .ui-rtsr-first-tab, .ui-rtsr-name{
+	color:#fff;
+	background-color: #5b7b9a;
 }
