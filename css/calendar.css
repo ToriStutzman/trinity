@@ -5,7 +5,7 @@ white-space:normal !important;
 
 /* edit the border/background of calendar */
 .view-cap, .view-container-border{
-	background-color: #6B381F;
+	background-color:#5b7b9a;
 }
 
 
@@ -28,9 +28,6 @@ white-space:normal !important;
 .st-bg-today{
 	background-color:#9c7a69; 
 }
-.st-bg-next{
-	
-}
 
 
 /* Controls the dates of the days in the calendar */
@@ -42,9 +39,6 @@ white-space:normal !important;
 .st-dtitle-today{
 	background-color: #9c7a69;
 	color: #fff;
-}
-.st-dtitle-next{
-	
 }
 .st-dtitle-nonmonth{ /* controls the display of text for dates in a new month not present in the current month */
 	opacity: 0.5;
