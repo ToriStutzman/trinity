@@ -44,3 +44,43 @@ white-space:normal !important;
 	opacity: 0.5;
 }
 
+
+#calendarTitle{
+	font-family: "Aktiv Grotesk";
+	color:#b3011e;
+	font-size: 2rem;
+	padding-bottom: 0.5rem;
+}
+
+.tab-name{
+	font-family: "Aktiv Grotesk";
+	color:#b3011e;
+	background-color: #5b7b9a;
+}
+.footer img{
+	display:none;
+}
+
+.mv-event-container
+{border-color:#999;
+
+}
+
+.navBack,
+.navForward
+{ 
+	color:#b3011e; 
+}
+
+.agenda-more{ 
+	color:#0D75BB; 
+
+}
+.agenda .date-label{ 
+	padding:5px 0px; 
+}
+.dp-popup{
+	background:#fff;
+	border-color: #5b7b9a;
+
+}
