@@ -11,7 +11,7 @@ white-space:normal !important;
 
 /* controls the names of the days at the top of the calendar */
 
-.mv-dayname-table{
+.mv-daynames-table {
 	font-family: "Aktiv Grotesk";
 	font-size: 1em;
 	color: #fff;
