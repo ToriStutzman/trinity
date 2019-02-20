@@ -14,11 +14,12 @@ foreach ($scripts as $script) {
 $js_src = $script->getAttributes('src');
 if ($js_src) $script->setAttributes('src', $google_domain . $js_src);
 }
+
 // Create a link to a new CSS file called custom_calendar.css
 $element = $dom->createElement('link');
 $element->setAttribute('type', 'text/css');
 $element->setAttribute('rel', 'stylesheet');
-$element->setAttribute('href', 'custom_calendar.css');
+$element->setAttribute('href', 'calendar.css');
 // Append this link at the end of the element
 $head = $dom->getElementByTagName('head')->item(0);
 $head->appendChild($element);
