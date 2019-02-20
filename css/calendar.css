@@ -11,14 +11,18 @@ white-space:normal !important;
 
 /* controls the names of the days at the top of the calendar */
 
-.mv-dayname{
+.mv-dayname-table{
 	font-family: "Aktiv Grotesk";
+	font-size: 1em;
+	color: #fff;
+	background: #5B7B9A;
 }
 
 /* controls the background of each of the sells */
 
 .st-bg{
-	
+	font-display: "Aktiv Grotesk";
+	color: black;
 }
 
 .st-bg-today{
@@ -32,6 +36,8 @@ white-space:normal !important;
 /* Controls the dates of the days in the calendar */
 .st-dtitle{
 	font-family: "Aktiv Grotesk";
+	background: #5B7B9A;
+	color: #fff;
 }
 .st-dtitle-today{
 	background-color: #9c7a69;
