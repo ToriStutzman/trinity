@@ -1,30 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trinity Lutheran Church</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap-4.2.1.css" rel="stylesheet" type="text/css">
-</head>
+<?php
 
-<body style="padding-top: 70px">
-	
-	<header>
-		
-	  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Navbar</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-		    <ul class="navbar-nav mr-auto">
-				<li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
-				<li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-				<li class="nav-item"> <a class="nav-link" href="events.html">Events</a> </li>
-			  <li class="nav-item"> <a class="nav-link" href="staff.html">Staff</a> </li>
-	        </ul>
-	    </div>
-	  </nav>
-    </header>
+include('include/head.php');
+?>
 	<main style="padding-top: 55px">
 		<img src="images/manger.jpg" width="100%"/>	
 		<div class="row">
@@ -38,15 +15,9 @@
 		</div>    			
 	
     </main>
-	
-	<footer>
-	  <p><b>Trinity Lutheran Church</b> | 15534&nbsp;E.&nbsp;Marquam&nbsp;Rd.&nbsp;Mt.&nbsp;Angel,&nbsp;Oregon&nbsp;97362 <br> 503-333-3333  |  example@example.org</p>
-	</footer>
-	
 
-	
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.2.1.js"></script>
-</body>
-</html>
+
+<?php
+
+include('include/footer.php');
+?>
