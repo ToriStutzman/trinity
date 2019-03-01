@@ -1,6 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url("https://use.typekit.net/vbr7xmm.css");
+
+:root {
+	--blue: #5b7b9a;
+	--darkblue: #1f2a33;
+	--white: #fff;
+	--red: #B3011E;
+	--brown: #6b381f;
+	--lightbrown: #9c7a69: 
+	
+	--dark:#1f0e11;
+	
+}
+
+
 
 html,
 html * {
@@ -10,6 +25,7 @@ html * {
 	font-family: "aktiv-grotesk", "san serif";
 }
 
+
 /*--- body ---*/
 
 p{
@@ -18,11 +34,11 @@ p{
 
 a{
 	text-decoration: none;
-	color:#5b7b9a; /* --- blue ---*/
+	color: var(--blue);
 }
 
 a:hover, a:focus{
-	color:#1f2a33; /* --- dark blue ---*/
+	color: var(--darkblue);
 }
 
 .clear{
@@ -30,21 +46,23 @@ a:hover, a:focus{
 	margin:0;
 }
 
+
+
 h1, h2, h3, h4, h5, h6{
 	font-family: "aktiv-grotesk", "sans serif";
 }
 
 h2{
 
-	font:bold;
+	font-weight:700;
 	font-size: 2.5rem;
-	color: #B3011E;
+	color: var(--red);
 	padding-bottom: 0.25em;
 	padding-top: 1.5em;
 }
 
 h3{
-	font:bold;
+	font-weight:700;
 	font-size: 1.5rem;
 	padding-bottom: 0.25em;
 	padding-top: 0.25em;
@@ -55,8 +73,8 @@ main div{
 }
 
 .blue{
-	background-color:#5B7B9A;
-	color: #fff;
+	background-color: var(--blue);
+	color: var(--white);
 	padding-top: 2%;
 }
 
@@ -64,11 +82,10 @@ main div{
 	align: left;
 	float: left;
 	width: 90%; 
-	color: #6B381F;
-	border: 0.15em solid #6B381F;
+	border: 0.15em solid var(--brown);
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
-	background-color: #6B381F;
+	background-color: var(--brown);
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
@@ -80,11 +97,10 @@ main div{
 	align: right;
 	float: right;
 	width: 90%; 
-	color: #6B381F;
-	border: 0.15em solid #6B381F;
+	border: 0.15em solid var(--brown);
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
-	background-color: #6B381F;
+	background-color: var(--brown);
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
@@ -129,16 +145,21 @@ main div{
 /*--- Header ---*/
 
 header{
-	background-color: #6B381F;
+	background-color: var(--brown);
 }
+
+
+
+
+
 
 /*--- footer ---*/
 
 footer{
     font-size: 1em;
     text-align: center;
-    background-color: #6b381f;
-	color: #fff;
+    background-color: var(--brown);
+	color: white;
 	padding: 30px;
 }
 
