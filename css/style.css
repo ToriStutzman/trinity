@@ -92,10 +92,15 @@ main div{
 	padding-right: 18%;
 }
 
+/*--- IMG STYLES ---*/
 
 .staff{
 	width: 90%;
 	padding-top: 2rem;
+}
+.head-img{
+	width: 100%;
+	padding-top: 55px;
 }
 
 
