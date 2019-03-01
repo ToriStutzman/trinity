@@ -50,8 +50,9 @@ main div{
 }
 
 .lefthr{
-	align: left; 
-	width: 60%; 
+	align: left;
+	float: left;
+	width: 70%; 
 	color: #6B381F;
 	border: 0.2em solid #6B381F;
 	border-bottom-right-radius: 5px;
@@ -64,13 +65,13 @@ main div{
 .righthr{
 	align: right;
 	float: right;
-	width: 60%; 
+	width: 70%; 
 	color: #6B381F;
 	border: 0.2em solid #6B381F;
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
 	background-color: #6B381F;
-	margin-top: 1em;
+	margin-top: 0em;
 	margin-bottom: 1em;
 }
 
