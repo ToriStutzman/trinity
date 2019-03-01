@@ -173,7 +173,7 @@ footer{
     font-size: 1em;
     text-align: center;
     background-color: var(--brown);
-	color: white;
+	color: var(--white);
 	padding: 30px;
 }
 

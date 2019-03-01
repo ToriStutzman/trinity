@@ -1,6 +1,6 @@
 <?php
 
-include('include/head.php');
+include('includes/head.php');
 ?>
 	<main style="padding-top: 55px">
 		<img src="images/manger.jpg" width="100%"/>	
@@ -19,5 +19,5 @@ include('include/head.php');
 
 <?php
 
-include('include/footer.php');
+include('includes/footer.php');
 ?>
