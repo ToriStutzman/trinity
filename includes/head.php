@@ -31,7 +31,3 @@
 	  </nav>		
 		<!-- NAVIGATION END -->
 		
-		<!-- Header Image -->
-		<img src="images/service.jpg" width="100%"/>
-    </header>
-	<!-- HEADER END-->
