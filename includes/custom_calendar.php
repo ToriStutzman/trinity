@@ -1,4 +1,4 @@
-$your_google_calendar="https://www.google.com/calendar/embed?src=usa__en@holiday.calendar.google.com&gsessionid=OK";
+$your_google_calendar="https://calendar.google.com/calendar/embed?src=04kibn509th4ri2eg6q254g490%40group.calendar.google.com&ctz=America%2FLos_Angeles";
 $url= parse_url($your_google_calendar);
 $google_domain = $url['scheme'].'://'.$url['host'].dirname($url['path']).'/';
 // Load and parse Google's raw calendar
@@ -8,6 +8,7 @@ $dom->loadHTMLfile($your_google_calendar);
 $css = $dom->getElementByTagName('link')->item(0);
 $css_href = $css->getAttributes('href');
 $css->setAttributes('href', $google_domain . $css_href);
+
 // Change Google's JS file to use absolute URLs
 $scripts = $dom->getElementByTagName('script')->item(0);
 foreach ($scripts as $script) {
