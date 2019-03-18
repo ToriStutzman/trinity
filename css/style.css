@@ -128,10 +128,6 @@ main div{
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-.afterhr
-	padding-left:10% ;
-	padding-right: 10%;
-}
 
 .righthr{
 	align: right;
@@ -143,6 +139,12 @@ main div{
 	background-color: var(--brown);
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+
+.afterhr{
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 
