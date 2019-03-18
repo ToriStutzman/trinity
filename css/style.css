@@ -97,7 +97,7 @@ h2{
 	font-size: 2.5rem;
 	color: var(--red);
 	padding-bottom: 0.25em;
-	padding-top: 0.25em;
+	padding-top: 0.1em;
 }
 
 h3{
@@ -182,7 +182,7 @@ main div{
 /*--- Header ---*/
 
 header{
-	background-color: var(--brown);
+	padding-bottom: 2em;
 }
 
 /*--- navigation bootstrap style overrides ---*/
@@ -192,15 +192,18 @@ header{
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
 	color: var(--white);
+	letter-spacing: 0.1em;
 	opacity: .5;
 }
 
 .navbar-dark .navbar-nav .nav-link {
 	color: var(--white);
+	letter-spacing: 0.1em;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
 	color: var(--white);
+	letter-spacing: 0.1em;
 	opacity: .5;
 }
 
@@ -227,6 +230,7 @@ header{
 footer{
     font-size: 1em;
     text-align: center;
+	letter-spacing: 0.12em;
     background-color: var(--brown);
 	color: var(--white);
 	padding: 30px;
