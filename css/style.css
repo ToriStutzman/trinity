@@ -13,6 +13,12 @@
 	
 	--dark:#1f0e11;
 	
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+	
 }
 
 
@@ -54,11 +60,36 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
 	font-weight: 300;
-	font-size: 5rem;
-	padding: 2rem 6rem 2rem 2rem;
+	font-size: 3rem;
 	color: var(--white);
+	text-shadow:  0 0 8px #000;
+	text-align: right;
+
 	
 }
+
+@media (min-width: 576px) {
+  	h1{
+		font-weight: 300;
+		font-size: 5rem;
+		color: var(--white);
+	}
+  }
+@media (min-width: 768px) {
+  	h1{
+		font-size: 5rem;
+	}
+  }
+@media (min-width: 992px) {
+  	h1{
+		font-size: 10rem;
+	}
+  }
+@media (min-width: 1200px) {
+  	h1{
+		font-size: 12rem;
+	}
+  }
 
 h2{
 
@@ -75,16 +106,6 @@ h3{
 	padding-bottom: 0.25em;
 	padding-top: 0.25em;
 }
-
-.head{
-	background-color: var(--blue);
-	opacity: .95;
-	margin-top: 10px;
-	position:absolute;
-		top: 15%;
-		right: 0px;
-}
-
 
 main div{
 	padding: 0px 8% 15px 8%;
@@ -134,10 +155,6 @@ main div{
 	width: 90%;
 	padding-top: 2rem;
 }
-.head-img{
-	width: 100%;
-	padding-top: 55px;
-}
 
 
 
@@ -153,6 +170,7 @@ main div{
 	overflow:hidden;
 	position:relative;
 	height:0;
+	padding: 0;
 	
 }
 .map-container iframe{
@@ -168,13 +186,14 @@ header{
 	background-color: var(--brown);
 }
 
+/*--- navigation bootstrap style overrides ---*/
 .bg-dark {
 	background-color: var(--brown) !important;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
 	color: var(--white);
-	opacity: .75;
+	opacity: .5;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -183,11 +202,26 @@ header{
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
 	color: var(--white);
-	opacity: .75;
+	opacity: .5;
 }
 
+/*--- header image and page name align ---*/
+.head-img{
+	width: 100%;
+	padding-top: 55px;
+}
 
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.bottom-right {
+  position: absolute;
+  bottom: 0%;
+  right: 3%;
+}
 
 /*--- footer ---*/
 
