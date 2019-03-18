@@ -27,7 +27,7 @@ html,
 html * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
+	border-box: box-sizing; 
 	font-family: "aktiv-grotesk", "san serif";
 }
 
@@ -128,7 +128,7 @@ main div{
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-.afterleft{
+.afterhr
 	padding-left:10% ;
 	padding-right: 10%;
 }
@@ -144,10 +144,7 @@ main div{
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-.afterright{
-	padding-right: 10%;
-	padding-left:10% ;
-}
+
 
 /*--- IMG STYLES ---*/
 
